@@ -41,7 +41,7 @@ function beginGravity() {
     setInterval(_ => {
         if ( isJumping || gravityStopped ) return
         changeGameState({ diff: 5, direction: 'down' })
-    }, 20)
+    }, 30)
 }
 
 function changeGameState({ diff, direction }) {
